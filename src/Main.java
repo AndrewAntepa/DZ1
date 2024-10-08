@@ -54,7 +54,7 @@ public class Main {
         var ostWeight = boxer2 % boxer1;
         System.out.println("остаток от деления = " + ostWeight);
 
-        System.out.println("\nЗадача 7:");
+        System.out.println("\nЗадача 8:");
         var hours = 640;
         var hourPerPerson = 8;
         var people = hours / hourPerPerson;
