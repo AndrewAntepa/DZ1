@@ -53,5 +53,15 @@ public class Main {
         System.out.println("\nЗадача 7:");
         var ostWeight = boxer2 % boxer1;
         System.out.println("остаток от деления = " + ostWeight);
+
+        System.out.println("\nЗадача 7:");
+        var hours = 640;
+        var hourPerPerson = 8;
+        var people = hours / hourPerPerson;
+        System.out.println("Всего работников в компании — " + people + " человек");
+
+        people += 94;
+        hours = people * hourPerPerson;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками");
     }
 }
