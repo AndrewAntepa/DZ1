@@ -1,5 +1,67 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Задача 1:");
+        var dog = 80;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        System.out.println("\nЗадача 2:");
+        dog += 4;
+        cat += 4;
+        paper += 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        System.out.println("\nЗадача 3:");
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        System.out.println("\nЗадача 4:");
+        var friend = 19;
+        System.out.println(friend);
+        friend += 2;
+        System.out.println(friend);
+        friend /= 7;
+        System.out.println(friend);
+
+        System.out.println("\nЗадача 5:");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog *= 10;
+        System.out.println(frog);
+        frog /= 3.5;
+        System.out.println(frog);
+        frog += 4;
+        System.out.println(frog);
+
+        System.out.println("\nЗадача 6:");
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var sumWeight = boxer1 + boxer2;
+        System.out.println("общая массса = " + sumWeight);
+        var subWeight = boxer2 - boxer1;
+        System.out.println("разница массы = " + subWeight);
+
+        System.out.println("\nЗадача 7:");
+        var ostWeight = boxer2 % boxer1;
+        System.out.println("остаток от деления = " + ostWeight);
+
+        System.out.println("\nЗадача 8:");
+        var hours = 640;
+        var hourPerPerson = 8;
+        var people = hours / hourPerPerson;
+        System.out.println("Всего работников в компании — " + people + " человек");
+
+        people += 94;
+        hours = people * hourPerPerson;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками");
     }
 }
